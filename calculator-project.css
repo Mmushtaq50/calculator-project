@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background: linear-gradient(to right, grey, pink);
+    line-height: 0.5;
+}
+
+.calsi {
+    width: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    bottom: 10%;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50, -50);
+    transition: 0.25px;
+    text-align: center;
+    margin-trim: 2;
+}
+
+#display {
+    border: none;
+    background: white;
+    border-radius: 100px;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150;
+    height: 40;
+    margin: auto;
+    border: 3px solid grey;
+    color: brown;
+}
+
+.btnDesign {
+    width: 35;
+    height: 35;
+    padding-top: 0;
+    border: none;
+    font-family: sans-serif;
+    font-size: 15;
+    font-weight: 200;
+    border-radius: 100px;
+    margin: 5;
+}
+
+.operatorDesign {
+    color: darkred;
+    width: 50;
+    padding-top: -1;
+    height: 55;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 200;
+    border-radius: 30px;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.operatoeDesign:hover {
+    background: black;
+}
+
+#zero {
+    width: 85;
+    height: 35;
+    padding-top: 0;
+    border: none;
+    font-family: sans-serif;
+    font-size: 13;
+    font-weight: 200;
+    border-radius: 100px;
+    margin: 5;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 270px;
+    font: 1em sans-serif;
+    font-size: large;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: honeydew;
+    text-decoration: underline;
+}
+
+h2 {
+    color: darkslateblue;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 18;
+    margin-top: -1px;
+    margin-left: 265px;
+}
+
+h1 {
+    font-size: large;
+    color: black;
+    font-weight: 500;
+    font-style: oblique;
+}
